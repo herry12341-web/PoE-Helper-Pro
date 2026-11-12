@@ -1,0 +1,1 @@
+Portable build: automatic updates disabled.

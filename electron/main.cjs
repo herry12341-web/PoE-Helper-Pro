@@ -325,17 +325,20 @@ function createWindow() {
     });
 
     // User-editable gem reminders: read only on explicit UI load/reload.
-    const gemConfigPath = path.join(app.getPath('userData'), 'my_gems.json');
+    const gemConfigPath = app.isPackaged
+        ? path.join(path.dirname(process.execPath), 'data', 'my_gems.json')
+        : path.join(app.getPath('userData'), 'my_gems.json');
     ipcMain.handle('load-gem-config', () => {
         try {
             if (!fs.existsSync(gemConfigPath)) {
+                fs.mkdirSync(path.dirname(gemConfigPath), { recursive: true });
                 fs.copyFileSync(path.join(__dirname, '..', 'data', 'my_gems.json'), gemConfigPath);
             }
             if (fs.statSync(gemConfigPath).size > 1024 * 1024) throw new Error('my_gems.json exceeds 1 MB');
             return { content: fs.readFileSync(gemConfigPath, 'utf-8'), path: gemConfigPath };
         } catch (error) { return { error: error.message }; }
     });
-    ipcMain.on('open-gem-config-folder', () => { shell.openPath(app.getPath('userData')); });
+    ipcMain.on('open-gem-config-folder', () => { shell.openPath(path.dirname(gemConfigPath)); });
 
     // --- IPC：取得透明度 ---
     ipcMain.handle('get-opacity', () => savedOpacity);
@@ -465,7 +468,7 @@ app.whenReady().then(() => {
     createWindow();
 
     // 檢查更新
-    if (!isDev) {
+    if (!isDev && !fs.existsSync(path.join(path.dirname(process.execPath), 'portable-mode.txt'))) {
         autoUpdater.checkForUpdatesAndNotify();
     }
 });
@@ -517,7 +520,7 @@ autoUpdater.on('error', (err) => {
 
 // 手動檢查更新
 ipcMain.on('check-for-updates', () => {
-    if (!isDev) {
+    if (!isDev && !fs.existsSync(path.join(path.dirname(process.execPath), 'portable-mode.txt'))) {
         autoUpdater.checkForUpdatesAndNotify();
     }
 });

@@ -19,7 +19,8 @@
     "electron:pack": "vite build && electron-packager . \"PoE 開荒助手 Pro\" --platform=win32 --arch=x64 --out=dist/installers --overwrite --ignore=node_modules/electron-builder",
     "electron": "cross-env NODE_ENV=development electron .",
     "fetch:maps": "python3 scripts/fetch_maps.py",
-    "test:campaign": "node --test tests/campaign.test.js"
+    "test:campaign": "node --test tests/campaign.test.js",
+    "electron:windows": "vite build && electron-builder --win --x64 --dir --publish never"
   },
   "dependencies": {
     "clsx": "^2.1.1",
@@ -64,11 +65,26 @@
       "target": [
         "nsis",
         "portable"
-      ]
+      ],
+      "signAndEditExecutable": false,
+      "executableName": "PoE-Helper-Pro"
     },
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true
+    },
+    "extraFiles": [
+      {
+        "from": "data/my_gems.json",
+        "to": "data/my_gems.json"
+      },
+      {
+        "from": "portable-mode.txt",
+        "to": "portable-mode.txt"
+      }
+    ],
+    "directories": {
+      "output": "release"
     }
   }
 }
