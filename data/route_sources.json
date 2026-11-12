@@ -1,0 +1,33 @@
+[
+  {
+    "id": "original-guide",
+    "name": "PoE-Helper-Pro 3.0.0 既有繁體中文路線",
+    "url": "https://github.com/Lucifer631217/PoE-Helper-Pro/blob/97f0d9f/src/App.jsx",
+    "note": "保留原作者路線，獎勵、盜賊與版本相關資訊需依當季核對。"
+  },
+  {
+    "id": "tyty-university",
+    "name": "Zizaran × Tytykiller：Campaign Masterclass",
+    "url": "https://www.youtube.com/watch?v=_5vin4uTlqQ",
+    "published": "2021-01-10",
+    "note": "參考章節：04:25 經驗值；11:22 目標；14:54 A1；22:50 A2；36:45 A3；55:04 A4；01:01:57 A5。舊版示範，不直接套用舊獎勵與配方。"
+  },
+  {
+    "id": "tyty-interview",
+    "name": "Tytykiller：GGG 官方訪談（2020）",
+    "url": "https://www.pathofexile.com/forum/view-thread/3001523/filter-account-type/staff",
+    "note": "採用原則：預先列好回城購物清單、先改善大幅耗時、區分競速紀錄與開荒需求。非當季技能配置。"
+  },
+  {
+    "id": "havoc-srs",
+    "name": "Havoc616：3.23 SRS Guardian SSF，全技能點與迷宮",
+    "url": "https://www.youtube.com/watch?v=WxP2vmqvdI8",
+    "note": "舊版特定流派示範，僅作全任務開荒練習參考；未核實逐步路線，未直接移植寶石與裝備。"
+  },
+  {
+    "id": "havoc-srs-notes",
+    "name": "Havoc × Subtractem：3.23 SRS 開荒筆記",
+    "url": "https://pobb.in/AxRqm73W_VRm",
+    "note": "已核對文字筆記：早期回城配置、圖書館可選分支與轉技能前補經驗。只採用明確標示的摘要，不直接移植舊版價格／天賦／技能組合。"
+  }
+]

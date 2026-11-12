@@ -30,3 +30,7 @@ Thumbs.db
 # Electron developer files
 dev-app-update.yml
 package-lock.json
+
+# Downloader cache (maps and generated data remain tracked)
+.map-cache/
+__pycache__/

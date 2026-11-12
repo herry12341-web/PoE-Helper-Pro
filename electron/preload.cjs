@@ -15,6 +15,9 @@ contextBridge.exposeInMainWorld('electronAPI', {
     // 判斷是否在 Electron 環境
     isElectron: true,
 
+    loadGemConfig: () => ipcRenderer.invoke('load-gem-config'),
+    openGemConfigFolder: () => ipcRenderer.send('open-gem-config-folder'),
+
     // --- 圖片選擇與清理 ---
     // 選擇單張速查表圖片 (相容)
     selectImage: () => ipcRenderer.invoke('select-image'),

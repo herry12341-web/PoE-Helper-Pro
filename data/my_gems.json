@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "_instructions": "依 zone_id 新增區域。enabled=false 為停用範例；quantity 為數量。修改後點重新載入。NPC、職業及任務販售條件請依版本核對。",
+  "zones": [
+    {
+      "zone_id": "a6-lioneyes-watch",
+      "gem_purchases": [
+        {
+          "id": "a6-lilly-determination",
+          "npc": "莉莉．羅斯 (Lilly Roth)",
+          "gem_name": "堅定 (Determination)",
+          "quantity": 1,
+          "enabled": true,
+          "note": "範例：完成 Fallen from Grace（清理 Twilight Strand）後，依流派需求購買；使用前確認等級、力量與魔力保留。",
+          "conditions": {
+            "quest_completed": [
+              "Fallen from Grace"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

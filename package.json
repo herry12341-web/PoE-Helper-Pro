@@ -17,7 +17,9 @@
     "electron:dev": "concurrently \"vite\" \"wait-on http://localhost:5173 && cross-env NODE_ENV=development electron .\"",
     "electron:build": "vite build && electron-builder",
     "electron:pack": "vite build && electron-packager . \"PoE 開荒助手 Pro\" --platform=win32 --arch=x64 --out=dist/installers --overwrite --ignore=node_modules/electron-builder",
-    "electron": "cross-env NODE_ENV=development electron ."
+    "electron": "cross-env NODE_ENV=development electron .",
+    "fetch:maps": "python3 scripts/fetch_maps.py",
+    "test:campaign": "node --test tests/campaign.test.js"
   },
   "dependencies": {
     "clsx": "^2.1.1",
@@ -55,7 +57,8 @@
     ],
     "files": [
       "build/**/*",
-      "electron/**/*"
+      "electron/**/*",
+      "data/my_gems.json"
     ],
     "win": {
       "target": [

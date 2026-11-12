@@ -1,0 +1,135 @@
+[
+  {
+    "zone_id": "a1-lioneyes-watch",
+    "act": 1,
+    "zone_name": "Lioneye's Watch（城鎮）",
+    "map_images": [],
+    "speedrun_tips": [
+      "回城時一次完成任務交付、寶石購買、插槽與抗性檢查；依流派決定購買項目。",
+      "Tytykiller（GGG 2020 訪談）：先列出這次回城要買的物品、費用與解鎖時機，集中處理購物。",
+      "Tytykiller（GGG 2020 訪談）：開荒保留必要技能點任務，不照抄只求 A5 紀錄的省略路線。",
+      "Havoc 3.23 SRS 守護者示範：Hailrake 與 Brutus 後分別安排技能／位移配置檢查，出城前確認插槽與屬性；這是舊版流派範例。"
+    ],
+    "gem_purchases": [],
+    "source_url": "https://github.com/Lucifer631217/PoE-Helper-Pro"
+  },
+  {
+    "zone_id": "a2-forest-encampment",
+    "act": 2,
+    "zone_name": "Forest Encampment（城鎮）",
+    "map_images": [],
+    "speedrun_tips": [
+      "回城時一次完成任務交付、寶石購買、插槽與抗性檢查；依流派決定購買項目。",
+      "Tytykiller（GGG 2020 訪談）：先列出這次回城要買的物品、費用與解鎖時機，集中處理購物。",
+      "Tytykiller（GGG 2020 訪談）：開荒保留必要技能點任務，不照抄只求 A5 紀錄的省略路線。"
+    ],
+    "gem_purchases": [],
+    "source_url": "https://github.com/Lucifer631217/PoE-Helper-Pro"
+  },
+  {
+    "zone_id": "a3-sarn-encampment",
+    "act": 3,
+    "zone_name": "Sarn Encampment（城鎮）",
+    "map_images": [],
+    "speedrun_tips": [
+      "回城時一次完成任務交付、寶石購買、插槽與抗性檢查；依流派決定購買項目。",
+      "Tytykiller（GGG 2020 訪談）：先列出這次回城要買的物品、費用與解鎖時機，集中處理購物。",
+      "Tytykiller（GGG 2020 訪談）：開荒保留必要技能點任務，不照抄只求 A5 紀錄的省略路線。",
+      "Havoc 3.23 SRS 示範：圖書館屬可選分支；若當前配置不需要提前取得該處寶石，可延至第六章購買，減少繞路。"
+    ],
+    "gem_purchases": [],
+    "source_url": "https://github.com/Lucifer631217/PoE-Helper-Pro"
+  },
+  {
+    "zone_id": "a4-highgate",
+    "act": 4,
+    "zone_name": "Highgate（城鎮）",
+    "map_images": [],
+    "speedrun_tips": [
+      "回城時一次完成任務交付、寶石購買、插槽與抗性檢查；依流派決定購買項目。",
+      "Tytykiller（GGG 2020 訪談）：先列出這次回城要買的物品、費用與解鎖時機，集中處理購物。",
+      "Tytykiller（GGG 2020 訪談）：開荒保留必要技能點任務，不照抄只求 A5 紀錄的省略路線。"
+    ],
+    "gem_purchases": [],
+    "source_url": "https://github.com/Lucifer631217/PoE-Helper-Pro"
+  },
+  {
+    "zone_id": "a5-overseers-tower",
+    "act": 5,
+    "zone_name": "Overseer's Tower（城鎮）",
+    "map_images": [],
+    "speedrun_tips": [
+      "回城時一次完成任務交付、寶石購買、插槽與抗性檢查；依流派決定購買項目。",
+      "Tytykiller（GGG 2020 訪談）：先列出這次回城要買的物品、費用與解鎖時機，集中處理購物。",
+      "Tytykiller（GGG 2020 訪談）：開荒保留必要技能點任務，不照抄只求 A5 紀錄的省略路線。",
+      "Havoc 3.23 SRS 示範：轉換技能前若經驗不足，可在純淨之室額外補等級；不作為所有職業的硬性要求。"
+    ],
+    "gem_purchases": [],
+    "source_url": "https://github.com/Lucifer631217/PoE-Helper-Pro"
+  },
+  {
+    "zone_id": "a6-lioneyes-watch",
+    "act": 6,
+    "zone_name": "Lioneye's Watch（城鎮）",
+    "map_images": [],
+    "speedrun_tips": [
+      "回城時一次完成任務交付、寶石購買、插槽與抗性檢查；依流派決定購買項目。",
+      "Tytykiller（GGG 2020 訪談）：先列出這次回城要買的物品、費用與解鎖時機，集中處理購物。",
+      "Tytykiller（GGG 2020 訪談）：開荒保留必要技能點任務，不照抄只求 A5 紀錄的省略路線。"
+    ],
+    "gem_purchases": [],
+    "source_url": "https://github.com/Lucifer631217/PoE-Helper-Pro"
+  },
+  {
+    "zone_id": "a7-bridge-encampment",
+    "act": 7,
+    "zone_name": "Bridge Encampment（城鎮）",
+    "map_images": [],
+    "speedrun_tips": [
+      "回城時一次完成任務交付、寶石購買、插槽與抗性檢查；依流派決定購買項目。",
+      "Tytykiller（GGG 2020 訪談）：先列出這次回城要買的物品、費用與解鎖時機，集中處理購物。",
+      "Tytykiller（GGG 2020 訪談）：開荒保留必要技能點任務，不照抄只求 A5 紀錄的省略路線。"
+    ],
+    "gem_purchases": [],
+    "source_url": "https://github.com/Lucifer631217/PoE-Helper-Pro"
+  },
+  {
+    "zone_id": "a8-sarn-encampment",
+    "act": 8,
+    "zone_name": "Sarn Encampment（城鎮）",
+    "map_images": [],
+    "speedrun_tips": [
+      "回城時一次完成任務交付、寶石購買、插槽與抗性檢查；依流派決定購買項目。",
+      "Tytykiller（GGG 2020 訪談）：先列出這次回城要買的物品、費用與解鎖時機，集中處理購物。",
+      "Tytykiller（GGG 2020 訪談）：開荒保留必要技能點任務，不照抄只求 A5 紀錄的省略路線。"
+    ],
+    "gem_purchases": [],
+    "source_url": "https://github.com/Lucifer631217/PoE-Helper-Pro"
+  },
+  {
+    "zone_id": "a9-highgate",
+    "act": 9,
+    "zone_name": "Highgate（城鎮）",
+    "map_images": [],
+    "speedrun_tips": [
+      "回城時一次完成任務交付、寶石購買、插槽與抗性檢查；依流派決定購買項目。",
+      "Tytykiller（GGG 2020 訪談）：先列出這次回城要買的物品、費用與解鎖時機，集中處理購物。",
+      "Tytykiller（GGG 2020 訪談）：開荒保留必要技能點任務，不照抄只求 A5 紀錄的省略路線。"
+    ],
+    "gem_purchases": [],
+    "source_url": "https://github.com/Lucifer631217/PoE-Helper-Pro"
+  },
+  {
+    "zone_id": "a10-oriath-docks",
+    "act": 10,
+    "zone_name": "Oriath Docks（城鎮）",
+    "map_images": [],
+    "speedrun_tips": [
+      "回城時一次完成任務交付、寶石購買、插槽與抗性檢查；依流派決定購買項目。",
+      "Tytykiller（GGG 2020 訪談）：先列出這次回城要買的物品、費用與解鎖時機，集中處理購物。",
+      "Tytykiller（GGG 2020 訪談）：開荒保留必要技能點任務，不照抄只求 A5 紀錄的省略路線。"
+    ],
+    "gem_purchases": [],
+    "source_url": "https://github.com/Lucifer631217/PoE-Helper-Pro"
+  }
+]

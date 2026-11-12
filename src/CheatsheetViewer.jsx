@@ -2,15 +2,16 @@ import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-export const CheatsheetViewer = ({ images, onClose, hotkeyLabel }) => {
+export const CheatsheetViewer = ({ images, onClose, hotkeyLabel, initialIndex }) => {
     const [scale, setScale] = useState(1);
-    const [currentIdx, setCurrentIdx] = useState(0);
+    const [currentIdx, setCurrentIdx] = useState(initialIndex ?? 0);
 
     // Get the viewer ID from hash if we are in a standalone window, otherwise it's just local modal
     const viewerId = window.location.hash ? new URLSearchParams(window.location.hash.split('?')[1]).get('id') : 'local';
 
     // 載入最後記憶的圖片索引
     useEffect(() => {
+        if (initialIndex !== undefined) return;
         const saved = localStorage.getItem(`poe_viewer_idx_${viewerId}`);
         if (saved !== null) {
             const idx = parseInt(saved, 10);
@@ -18,7 +19,7 @@ export const CheatsheetViewer = ({ images, onClose, hotkeyLabel }) => {
                 setCurrentIdx(idx);
             }
         }
-    }, [viewerId]);
+    }, [viewerId, initialIndex]);
 
     const srcs = Array.isArray(images) ? images : (images ? [images] : []);
     if (srcs.length === 0) return null;
@@ -27,7 +28,7 @@ export const CheatsheetViewer = ({ images, onClose, hotkeyLabel }) => {
 
     const saveIdx = (newIdx) => {
         setCurrentIdx(newIdx);
-        localStorage.setItem(`poe_viewer_idx_${viewerId}`, newIdx);
+        if (initialIndex === undefined) localStorage.setItem(`poe_viewer_idx_${viewerId}`, newIdx);
     };
 
     const handleWheel = (e) => {

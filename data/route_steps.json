@@ -1,0 +1,1194 @@
+[
+  {
+    "id": "a1-step-01",
+    "act": 1,
+    "zone_id": "a1-overview",
+    "text": "延岸跑，路上開箱子拿技能石，開門進城 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a1-step-02",
+    "act": 1,
+    "zone_id": "a1-overview",
+    "text": "出城到 暮光海灘，不打小怪一直跑到傳送點 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a1-step-03",
+    "act": 1,
+    "zone_id": "a1-overview",
+    "text": "跑到 炙熱鹽沼，開始打怪並拿三個螺開路，進 海潮地穴 踩傳送點 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a1-step-04",
+    "act": 1,
+    "zone_id": "a1-overview",
+    "text": "傳送回 暮光海灘，往下跑到 海潮孤島，殺拿醫藥箱 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a1-step-05",
+    "act": 1,
+    "zone_id": "a1-overview",
+    "text": "回城找人拿跑藥和技能石 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a1-step-06",
+    "act": 1,
+    "zone_id": "a1-overview",
+    "text": "傳送到 海潮地穴，跑到中間開傳送門（或水聲之淵門口開門，別進去一會兒才來）。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a1-step-07",
+    "act": 1,
+    "zone_id": "a1-overview",
+    "text": "形往上跑到 沉寂海崖 踩點，殺掉圖騰跑進 碎岩山坡 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a1-step-08",
+    "act": 1,
+    "zone_id": "a1-overview",
+    "text": "踩點後一路跑到 禁靈之獄下層，走幾步踩點回城 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a1-step-09",
+    "act": 1,
+    "zone_id": "a1-overview",
+    "text": "走傳送門回到 海潮地穴，往剛才出口相反的方向跑去地洞二層 水聲之淵，殺蟹（天賦點任務）。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a1-step-10",
+    "act": 1,
+    "zone_id": "a1-overview",
+    "text": "回城傳送去 禁靈之獄下層 (帝王迷宮試煉1) 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a1-step-11",
+    "act": 1,
+    "zone_id": "a1-overview",
+    "text": "解完試煉出來一路跑去上層殺 典獄長 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a1-step-12",
+    "act": 1,
+    "zone_id": "a1-overview",
+    "text": "殺完出口踩點回城拿位移技能 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a1-step-13",
+    "act": 1,
+    "zone_id": "a1-overview",
+    "text": "傳送 監獄大門，跑到 魅影船墓 踩傳送點 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a1-step-14",
+    "act": 1,
+    "zone_id": "a1-overview",
+    "text": "下 魅影船墓洞穴 拿任務物品，跑上地面。往上一直跑到 怨憤之窟 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a1-step-15",
+    "act": 1,
+    "zone_id": "a1-overview",
+    "text": "踩點傳送回 魅影船墓，向右找到船長殺之（天賦點任務）。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a1-step-16",
+    "act": 1,
+    "zone_id": "a1-overview",
+    "text": "傳送回 怨憤之窟，向右跑到 怨憤之窟深處，向右跑，殺關底首領（職業玩家到這裡20分鐘左右）。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a2-step-01",
+    "act": 2,
+    "zone_id": "a2-overview",
+    "text": "往上跑到森林營地 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a2-step-02",
+    "act": 2,
+    "zone_id": "a2-overview",
+    "text": "出城跑到 前哨原野 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a2-step-03",
+    "act": 2,
+    "zone_id": "a2-overview",
+    "text": "往右進入 危機岔路，踩點回城回到 前哨原野 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a2-step-04",
+    "act": 2,
+    "zone_id": "a2-overview",
+    "text": "在地圖中找到 獸穴，殺白野獸 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a2-step-05",
+    "act": 2,
+    "zone_id": "a2-overview",
+    "text": "找人拿跑瓶 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a2-step-06",
+    "act": 2,
+    "zone_id": "a2-overview",
+    "text": "傳送去 危機岔路，沿路往左上跑進入 罪孽之殿 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a2-step-07",
+    "act": 2,
+    "zone_id": "a2-overview",
+    "text": "中心傳送點的右上方進入 罪孽之殿二層 (帝王迷宮試煉2) 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a2-step-08",
+    "act": 2,
+    "zone_id": "a2-overview",
+    "text": "解完迷宮出來殺掉第二層的首領 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a2-step-09",
+    "act": 2,
+    "zone_id": "a2-overview",
+    "text": "回城向左穿過 河道（踩傳送點），沿路跑進入 西部密林 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a2-step-10",
+    "act": 2,
+    "zone_id": "a2-overview",
+    "text": "沿路去踩點，然後往右下跑到牆，延著牆往右上進入到 織網者巢穴 殺蜘蛛首領 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a2-step-11",
+    "act": 2,
+    "zone_id": "a2-overview",
+    "text": "回城傳送到 危機岔路，往右下過兩張圖到 寂靜陵墓一層 (帝王迷宮試煉3) 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a2-step-12",
+    "act": 2,
+    "zone_id": "a2-overview",
+    "text": "傳回 危機岔路，往右到 河畔斷橋，沿著路跑踩傳送點後到底殺掉盜賊 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a2-step-13",
+    "act": 2,
+    "zone_id": "a2-overview",
+    "text": "回城 河道，往上跑到 濕地，直走殺盜賊 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a2-step-14",
+    "act": 2,
+    "zone_id": "a2-overview",
+    "text": "在濕地跑踩點傳送 西部密林 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a2-step-15",
+    "act": 2,
+    "zone_id": "a2-overview",
+    "text": "走剩下的方向跑去幫忙或殺死艾莉亞（殺掉獲得2天賦點）。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a2-step-16",
+    "act": 2,
+    "zone_id": "a2-overview",
+    "text": "沿著牆跑去路口殺黑旗軍回森林營地找艾米爾拿開路道具 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a2-step-17",
+    "act": 2,
+    "zone_id": "a2-overview",
+    "text": "傳送到 濕地，往上開樹根進入 瓦爾廢墟，過通道到達 北部密林 踩點 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a2-step-18",
+    "act": 2,
+    "zone_id": "a2-overview",
+    "text": "傳送回第一章獅眼守望拿天賦點 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a2-step-19",
+    "act": 2,
+    "zone_id": "a2-overview",
+    "text": "傳到 北部密林 沿著牆跑到 瀑布洞穴（注意，不是驚魂樹洞）(跑速工藝)，穿過它來到 古金字塔 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a2-step-20",
+    "act": 2,
+    "zone_id": "a2-overview",
+    "text": "上樓頂殺首領 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a2-step-21",
+    "act": 2,
+    "zone_id": "a2-overview",
+    "text": "回城傳送去第三章（37分鐘左右）。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a3-step-01",
+    "act": 3,
+    "zone_id": "a3-overview",
+    "text": "往上跑與人對話然後進入 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a3-step-02",
+    "act": 3,
+    "zone_id": "a3-overview",
+    "text": "進城以後直接從上面的出口進入 貧民窟 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a3-step-03",
+    "act": 3,
+    "zone_id": "a3-overview",
+    "text": "穿過 貧民窟 到 火葬場 (帝王迷宮試煉4) 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a3-step-04",
+    "act": 3,
+    "zone_id": "a3-overview",
+    "text": "解完試煉出來殺派蒂，回程拿下水道鑰匙 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a3-step-05",
+    "act": 3,
+    "zone_id": "a3-overview",
+    "text": "回 貧民窟，進入下水道 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a3-step-06",
+    "act": 3,
+    "zone_id": "a3-overview",
+    "text": "拿了3個半身像（天賦點任務）再跑出 市集地帶 踩點 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a3-step-07",
+    "act": 3,
+    "zone_id": "a3-overview",
+    "text": "進入 黑石陵墓一層 (帝王迷宮試煉5) 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a3-step-08",
+    "act": 3,
+    "zone_id": "a3-overview",
+    "text": "傳送回市集，直接跑到 激戰廣場 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a3-step-09",
+    "act": 3,
+    "zone_id": "a3-overview",
+    "text": "踩點，旁邊貨車拿任務物品，往上跑進 不朽海港 拿硫酸 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a3-step-10",
+    "act": 3,
+    "zone_id": "a3-overview",
+    "text": "回城，拿技能書 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a3-step-11",
+    "act": 3,
+    "zone_id": "a3-overview",
+    "text": "傳送 激戰廣場，往右上進入 日曜神殿 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a3-step-12",
+    "act": 3,
+    "zone_id": "a3-overview",
+    "text": "跑到2樓對話拿項鍊和任務物品 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a3-step-13",
+    "act": 3,
+    "zone_id": "a3-overview",
+    "text": "傳回下水道，往左去 烏旗兵營 踩點 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a3-step-14",
+    "act": 3,
+    "zone_id": "a3-overview",
+    "text": "往上跑殺掉將軍，繼續往上跑進入 月影神殿 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a3-step-15",
+    "act": 3,
+    "zone_id": "a3-overview",
+    "text": "跑到二樓殺派蒂 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a3-step-16",
+    "act": 3,
+    "zone_id": "a3-overview",
+    "text": "回城拿獎勵，去藏身處工藝補電抗 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a3-step-17",
+    "act": 3,
+    "zone_id": "a3-overview",
+    "text": "傳送 烏旗兵營，向右跑到 皇家花園，踩點後向左上跑 (帝王迷宮試煉6) 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a3-step-18",
+    "act": 3,
+    "zone_id": "a3-overview",
+    "text": "回到 皇家花園 往右跑進入 神權之塔 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a3-step-19",
+    "act": 3,
+    "zone_id": "a3-overview",
+    "text": "衝到頂殺神主（60分鐘左右）。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a4-step-01",
+    "act": 4,
+    "zone_id": "a4-overview",
+    "text": "向北直衝進城直接往左去 乾涸湖岸，殺掉福爾 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a4-step-02",
+    "act": 4,
+    "zone_id": "a4-overview",
+    "text": "回城，跑左邊去 漆黑礦坑 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a4-step-03",
+    "act": 4,
+    "zone_id": "a4-overview",
+    "text": "下二層，先解救靈魂（天賦點任務），再去 水晶礦脈 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a4-step-04",
+    "act": 4,
+    "zone_id": "a4-overview",
+    "text": "踩點，進 德瑞索的環境 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a4-step-05",
+    "act": 4,
+    "zone_id": "a4-overview",
+    "text": "進 大競技場，踩了點就傳送回 水晶礦脈 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a4-step-06",
+    "act": 4,
+    "zone_id": "a4-overview",
+    "text": "進 岡姆的幻境，一路跑到底殺岡姆 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a4-step-07",
+    "act": 4,
+    "zone_id": "a4-overview",
+    "text": "回城，傳送去 大競技場，殺德瑞索 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a4-step-08",
+    "act": 4,
+    "zone_id": "a4-overview",
+    "text": "回城，傳送去 水晶礦脈，開啟 巨獸沼澤 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a4-step-09",
+    "act": 4,
+    "zone_id": "a4-overview",
+    "text": "衝沖沖，殺派蒂-3小王-馬拉凱 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a4-step-10",
+    "act": 4,
+    "zone_id": "a4-overview",
+    "text": "回城往上和人對話，跑出城開傳送器去第五章（1:20 左右）。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a5-step-01",
+    "act": 5,
+    "zone_id": "a5-overview",
+    "text": "奴役監牢 跑到底殺首領進城 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a5-step-02",
+    "act": 5,
+    "zone_id": "a5-overview",
+    "text": "直接走左邊出口去 鎮壓地帶，先找到探測棒（天賦點任務）。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a5-step-03",
+    "act": 5,
+    "zone_id": "a5-overview",
+    "text": "鎮壓地帶 殺首領，去 奧瑞亞大廣場 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a5-step-04",
+    "act": 5,
+    "zone_id": "a5-overview",
+    "text": "往右上跑到 神聖大教堂 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a5-step-05",
+    "act": 5,
+    "zone_id": "a5-overview",
+    "text": "右邊形迴路走進 無罪之室 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a5-step-06",
+    "act": 5,
+    "zone_id": "a5-overview",
+    "text": "貼牆跑到 潔白聖殿 殺爆伊爾莉斯 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a5-step-07",
+    "act": 5,
+    "zone_id": "a5-overview",
+    "text": "右下出門跑去 焚燒大教堂 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a5-step-08",
+    "act": 5,
+    "zone_id": "a5-overview",
+    "text": "向上跑個倒形迴路找到 大廣場廢墟 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a5-step-09",
+    "act": 5,
+    "zone_id": "a5-overview",
+    "text": "貼牆走左邊一點點路進入 葬骨禮堂（門口有傳送點）。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a5-step-10",
+    "act": 5,
+    "zone_id": "a5-overview",
+    "text": "拿純淨之印，回城拿獎勵 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a5-step-11",
+    "act": 5,
+    "zone_id": "a5-overview",
+    "text": "去過帝王迷宮 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a5-step-12",
+    "act": 5,
+    "zone_id": "a5-overview",
+    "text": "傳送回  大廣場廢墟，往左過橋往左下進入 聖物間，拿到三件奇塔弗的折磨（天賦點任務）。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a5-step-13",
+    "act": 5,
+    "zone_id": "a5-overview",
+    "text": "傳送回  大廣場廢墟，往左邊過橋左上找到去 聖堂屋頂。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a5-step-14",
+    "act": 5,
+    "zone_id": "a5-overview",
+    "text": "直線跑去奇塔弗房間 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a5-step-15",
+    "act": 5,
+    "zone_id": "a5-overview",
+    "text": "打完去藏身處補抗性，然後找過劇情（1:40 左右）。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a6-step-01",
+    "act": 6,
+    "zone_id": "a6-overview",
+    "text": "右邊出去 暮光海灘，跑到 炙熱鹽沼 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a6-step-02",
+    "act": 6,
+    "zone_id": "a6-overview",
+    "text": "殺長老，直奔 卡魯堡壘 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a6-step-03",
+    "act": 6,
+    "zone_id": "a6-overview",
+    "text": "殺進卡魯堡壘，進入 破碎山脊 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a6-step-04",
+    "act": 6,
+    "zone_id": "a6-overview",
+    "text": "踩了點直接開回城卷，左邊出門全清 絕望岩灘 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a6-step-05",
+    "act": 6,
+    "zone_id": "a6-overview",
+    "text": "傳送 破碎山脊，跑到 禁靈之獄 (殘酷帝王試煉1) 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a6-step-06",
+    "act": 6,
+    "zone_id": "a6-overview",
+    "text": "做完試煉直接跑 薛朗監塔 塔頂，殺薛朗的創造物 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a6-step-07",
+    "act": 6,
+    "zone_id": "a6-overview",
+    "text": "監獄大門 踩點，回城拿4連頭。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a6-step-08",
+    "act": 6,
+    "zone_id": "a6-overview",
+    "text": "傳送 監獄大門，沿著牆進 飲焰者的災變山谷 殺羊人首領（天賦點任務）。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a6-step-09",
+    "act": 6,
+    "zone_id": "a6-overview",
+    "text": "回到 監獄大門，沿路跑到 西部密林/河道，踩點，往左上進入 濕地",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a6-step-10",
+    "act": 6,
+    "zone_id": "a6-overview",
+    "text": "進入 纏盤蛛絲洞 殺傀儡女王首領（天賦點任務）。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a6-step-11",
+    "act": 6,
+    "zone_id": "a6-overview",
+    "text": "傳送 河道，向東穿過 南部森林 進入 忿怒山洞 拿黑旗 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a6-step-12",
+    "act": 6,
+    "zone_id": "a6-overview",
+    "text": "穿過洞窟，到 絕望烽塔 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a6-step-13",
+    "act": 6,
+    "zone_id": "a6-overview",
+    "text": "送火炬，下樓和港口船邊的人對話航行到 海洋王堡礁 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a6-step-14",
+    "act": 6,
+    "zone_id": "a6-overview",
+    "text": "跑到首領房間打完，回城直接傳送到第七章（2:00 左右）。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a7-step-01",
+    "act": 7,
+    "zone_id": "a7-overview",
+    "text": "進入 橋墩營地 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a7-step-02",
+    "act": 7,
+    "zone_id": "a7-overview",
+    "text": "往上出城到 河畔斷橋，沿著路跑，遇到銀色吊墜就拿了（暴擊瓶任務），然後繼續回到路上跑到 危機叉路 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a7-step-03",
+    "act": 7,
+    "zone_id": "a7-overview",
+    "text": "在 危機叉路 沿著路跑到傳送點，往下進入 墮道遺跡 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a7-step-04",
+    "act": 7,
+    "zone_id": "a7-overview",
+    "text": "再沿路跑到 寂靜陵墓 (殘酷帝王試煉2) 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a7-step-05",
+    "act": 7,
+    "zone_id": "a7-overview",
+    "text": "做完試煉，繼續在寂靜陵墓裡面找到石棺下樓，拿任務物品馬雷格羅的地圖 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a7-step-06",
+    "act": 7,
+    "zone_id": "a7-overview",
+    "text": "回城傳送去 危機叉路，往上跑到 罪孽之殿一層 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a7-step-07",
+    "act": 7,
+    "zone_id": "a7-overview",
+    "text": "開地圖進去打死垃圾藝人 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a7-step-08",
+    "act": 7,
+    "zone_id": "a7-overview",
+    "text": "傳送回一層，跟斯科對話，進入 罪孽之殿二層 (殘酷帝王試煉3) 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a7-step-09",
+    "act": 7,
+    "zone_id": "a7-overview",
+    "text": "做完試煉通過二層跑 獸穴，進入 旱木原野。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a7-step-10",
+    "act": 7,
+    "zone_id": "a7-overview",
+    "text": "沿著路跑到 堡壘營地 殺賊 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a7-step-11",
+    "act": 7,
+    "zone_id": "a7-overview",
+    "text": "進入 北部密林，在 驚魂樹洞 門口開個傳送門，然後貼牆跑到 堤道 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a7-step-12",
+    "act": 7,
+    "zone_id": "a7-overview",
+    "text": "在堤道找到 奇夏拉之星（天賦點任務），然後進 瓦爾城市 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a7-step-13",
+    "act": 7,
+    "zone_id": "a7-overview",
+    "text": "找到廢墟入口傳送點回城，傳送門進 驚魂樹洞 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a7-step-14",
+    "act": 7,
+    "zone_id": "a7-overview",
+    "text": "收集螢火蟲，下 絕望之巢 殺格魯絲克（天賦點任務）。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a7-step-15",
+    "act": 7,
+    "zone_id": "a7-overview",
+    "text": "回城，拿3個技能書，傳送 瓦爾城市。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a7-step-16",
+    "act": 7,
+    "zone_id": "a7-overview",
+    "text": "開 腐朽寺廟，直跑樓底殺蜘蛛首領。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a7-step-17",
+    "act": 7,
+    "zone_id": "a7-overview",
+    "text": "殺完回城傳送第八章（2:20 左右）。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a8-step-01",
+    "act": 8,
+    "zone_id": "a8-overview",
+    "text": "到薩恩營地 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a8-step-02",
+    "act": 8,
+    "zone_id": "a8-overview",
+    "text": "走左下進入 腐化渠道，一路去殺首領 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a8-step-03",
+    "act": 8,
+    "zone_id": "a8-overview",
+    "text": "殺完出口往右，進入 啟程碼頭，拿十字架，然後找到 甦醒奇點 葬愛（天賦點任務），接著繼續前進到 糧儲關口 殺古靈軍團（天賦點任務）。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a8-step-04",
+    "act": 8,
+    "zone_id": "a8-overview",
+    "text": "傳送回 腐化渠道 往左下，去 宏偉行道 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a8-step-05",
+    "act": 8,
+    "zone_id": "a8-overview",
+    "text": "從下面繞個大圈，進入 大浴堂 (無情帝王試煉1) 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a8-step-06",
+    "act": 8,
+    "zone_id": "a8-overview",
+    "text": "做完試煉，往相反的方向去 月影神廣場 踩點 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a8-step-07",
+    "act": 8,
+    "zone_id": "a8-overview",
+    "text": "回到 大浴堂 ，找到 空中花園 殺了水銀首領（天賦點任務）。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a8-step-08",
+    "act": 8,
+    "zone_id": "a8-overview",
+    "text": "傳送 月影神廣場 一路往上，進入 月影神殿 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a8-step-09",
+    "act": 8,
+    "zone_id": "a8-overview",
+    "text": "下二層，殺首領拿月影之石 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a8-step-10",
+    "act": 8,
+    "zone_id": "a8-overview",
+    "text": "回城，傳送 月影神廣場 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a8-step-11",
+    "act": 8,
+    "zone_id": "a8-overview",
+    "text": "往下跑到 海港大橋，穿過大橋到 日曜神廣場 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a8-step-12",
+    "act": 8,
+    "zone_id": "a8-overview",
+    "text": "朝上一直跑到 日曜神殿，衝二層殺首領拿太陽 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a8-step-13",
+    "act": 8,
+    "zone_id": "a8-overview",
+    "text": "回城，傳月影神廣場，往下跑到 海港大橋。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a8-step-14",
+    "act": 8,
+    "zone_id": "a8-overview",
+    "text": "進大橋的 天壇 首領房間殺之 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a8-step-15",
+    "act": 8,
+    "zone_id": "a8-overview",
+    "text": "出口，去第九章（2:40 左右）。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a9-step-01",
+    "act": 9,
+    "zone_id": "a9-overview",
+    "text": "可選跑殘酷帝王試煉，不急需昇華的也可以留到奇塔弗之前再跑 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a9-step-02",
+    "act": 9,
+    "zone_id": "a9-overview",
+    "text": "朝上跑出城去 下沉地區 ，進入 瓦斯提里荒漠 找到 風暴之刃 並踩點 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a9-step-03",
+    "act": 9,
+    "zone_id": "a9-overview",
+    "text": "形路線往上跑到 山麓 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a9-step-04",
+    "act": 9,
+    "zone_id": "a9-overview",
+    "text": "往上跑踩完點，繼續跑到 沸騰湖泊 殺了石化雞 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a9-step-05",
+    "act": 9,
+    "zone_id": "a9-overview",
+    "text": "傳送回  瓦斯提里荒漠 找到被風暴阻擋的路，回城拿風暴之瓶開路，然後殺了蝎子首領（天賦點任務）。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a9-step-06",
+    "act": 9,
+    "zone_id": "a9-overview",
+    "text": "傳送去 山麓，向左跑進入 隧道遣跡 (無情帝王試煉2) 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a9-step-07",
+    "act": 9,
+    "zone_id": "a9-overview",
+    "text": "隧道遣跡向左上跑，踩點，然後回頭做完試煉再進入 廢棄挖石場 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a9-step-08",
+    "act": 9,
+    "zone_id": "a9-overview",
+    "text": "跑到地圖中間踩點，往左跑貼牆找到 颶風神殿 首領房間殺了（天賦點任務）。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a9-step-09",
+    "act": 9,
+    "zone_id": "a9-overview",
+    "text": "回 廢棄挖石場 往上走進入 破損煉油廠 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a9-step-10",
+    "act": 9,
+    "zone_id": "a9-overview",
+    "text": "殺了 破損煉油廠 首領，拿粉末，回城傳送 廢棄挖石場 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a9-step-11",
+    "act": 9,
+    "zone_id": "a9-overview",
+    "text": "跟罪對話進入 獸穴之腹，一直跑進 腐敗之核 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a9-step-12",
+    "act": 9,
+    "zone_id": "a9-overview",
+    "text": "殺3小王+關底首領 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a9-step-13",
+    "act": 9,
+    "zone_id": "a9-overview",
+    "text": "回城傳送第十章（3:25）。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a10-step-01",
+    "act": 10,
+    "zone_id": "a10-overview",
+    "text": "上 聖堂之巔 救班恩 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a10-step-02",
+    "act": 10,
+    "zone_id": "a10-overview",
+    "text": "向右跑到 殘摧大廣場，向地圖右邊過橋踩點，進入 葬骨禮堂 (無情帝王試煉3) 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a10-step-03",
+    "act": 10,
+    "zone_id": "a10-overview",
+    "text": "傳送回 殘摧大廣場，（在尖塔出口下來這一側）左下跑到 鎮壓地帶，殺房間裡的叛徒首領（天賦點任務）。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a10-step-04",
+    "act": 10,
+    "zone_id": "a10-overview",
+    "text": "傳送回 殘摧大廣場，不過橋向右邊跑到 焚燒大教堂 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a10-step-05",
+    "act": 10,
+    "zone_id": "a10-overview",
+    "text": "進入 褻瀆之室 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a10-step-06",
+    "act": 10,
+    "zone_id": "a10-overview",
+    "text": "繞一圈找到 潔白聖殿 殺純淨之神首領，拿 純淨之杖 回城 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a10-step-07",
+    "act": 10,
+    "zone_id": "a10-overview",
+    "text": "可選跑無情帝王試煉，也可以攢點裝備以後再跑 。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a10-step-08",
+    "act": 10,
+    "zone_id": "a10-overview",
+    "text": "傳送 殘摧大廣場，向右走幾步跟善對話，過兩張圖殺奇塔弗（殺完後抗性總降30%）。",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  },
+  {
+    "id": "a10-step-09",
+    "act": 10,
+    "zone_id": "a10-overview",
+    "text": "※ 終章提醒：打 /passives 確認 24 點天賦是否拿齊！",
+    "source_id": "original-guide",
+    "verification": "legacy-route-review-required"
+  }
+]

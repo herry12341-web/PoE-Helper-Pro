@@ -324,6 +324,19 @@ function createWindow() {
         }
     });
 
+    // User-editable gem reminders: read only on explicit UI load/reload.
+    const gemConfigPath = path.join(app.getPath('userData'), 'my_gems.json');
+    ipcMain.handle('load-gem-config', () => {
+        try {
+            if (!fs.existsSync(gemConfigPath)) {
+                fs.copyFileSync(path.join(__dirname, '..', 'data', 'my_gems.json'), gemConfigPath);
+            }
+            if (fs.statSync(gemConfigPath).size > 1024 * 1024) throw new Error('my_gems.json exceeds 1 MB');
+            return { content: fs.readFileSync(gemConfigPath, 'utf-8'), path: gemConfigPath };
+        } catch (error) { return { error: error.message }; }
+    });
+    ipcMain.on('open-gem-config-folder', () => { shell.openPath(app.getPath('userData')); });
+
     // --- IPC：取得透明度 ---
     ipcMain.handle('get-opacity', () => savedOpacity);
 
