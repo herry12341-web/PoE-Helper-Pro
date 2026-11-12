@@ -2,7 +2,7 @@
   {
     "zone_id": "a1-lioneyes-watch",
     "act": 1,
-    "zone_name": "Lioneye's Watch（城鎮）",
+    "zone_name": "獅眼守望",
     "map_images": [],
     "speedrun_tips": [
       "回城時一次完成任務交付、寶石購買、插槽與抗性檢查；依流派決定購買項目。",
@@ -16,7 +16,7 @@
   {
     "zone_id": "a2-forest-encampment",
     "act": 2,
-    "zone_name": "Forest Encampment（城鎮）",
+    "zone_name": "森林營地",
     "map_images": [],
     "speedrun_tips": [
       "回城時一次完成任務交付、寶石購買、插槽與抗性檢查；依流派決定購買項目。",
@@ -29,7 +29,7 @@
   {
     "zone_id": "a3-sarn-encampment",
     "act": 3,
-    "zone_name": "Sarn Encampment（城鎮）",
+    "zone_name": "薩恩營地",
     "map_images": [],
     "speedrun_tips": [
       "回城時一次完成任務交付、寶石購買、插槽與抗性檢查；依流派決定購買項目。",
@@ -43,7 +43,7 @@
   {
     "zone_id": "a4-highgate",
     "act": 4,
-    "zone_name": "Highgate（城鎮）",
+    "zone_name": "統治者之殿",
     "map_images": [],
     "speedrun_tips": [
       "回城時一次完成任務交付、寶石購買、插槽與抗性檢查；依流派決定購買項目。",
@@ -56,7 +56,7 @@
   {
     "zone_id": "a5-overseers-tower",
     "act": 5,
-    "zone_name": "Overseer's Tower（城鎮）",
+    "zone_name": "監守高塔",
     "map_images": [],
     "speedrun_tips": [
       "回城時一次完成任務交付、寶石購買、插槽與抗性檢查；依流派決定購買項目。",
@@ -70,7 +70,7 @@
   {
     "zone_id": "a6-lioneyes-watch",
     "act": 6,
-    "zone_name": "Lioneye's Watch（城鎮）",
+    "zone_name": "獅眼守望",
     "map_images": [],
     "speedrun_tips": [
       "回城時一次完成任務交付、寶石購買、插槽與抗性檢查；依流派決定購買項目。",
@@ -83,7 +83,7 @@
   {
     "zone_id": "a7-bridge-encampment",
     "act": 7,
-    "zone_name": "Bridge Encampment（城鎮）",
+    "zone_name": "橋墩營地",
     "map_images": [],
     "speedrun_tips": [
       "回城時一次完成任務交付、寶石購買、插槽與抗性檢查；依流派決定購買項目。",
@@ -96,7 +96,7 @@
   {
     "zone_id": "a8-sarn-encampment",
     "act": 8,
-    "zone_name": "Sarn Encampment（城鎮）",
+    "zone_name": "薩恩營地",
     "map_images": [],
     "speedrun_tips": [
       "回城時一次完成任務交付、寶石購買、插槽與抗性檢查；依流派決定購買項目。",
@@ -109,7 +109,7 @@
   {
     "zone_id": "a9-highgate",
     "act": 9,
-    "zone_name": "Highgate（城鎮）",
+    "zone_name": "統治者之殿",
     "map_images": [],
     "speedrun_tips": [
       "回城時一次完成任務交付、寶石購買、插槽與抗性檢查；依流派決定購買項目。",
@@ -122,7 +122,7 @@
   {
     "zone_id": "a10-oriath-docks",
     "act": 10,
-    "zone_name": "Oriath Docks（城鎮）",
+    "zone_name": "奧瑞亞港口",
     "map_images": [],
     "speedrun_tips": [
       "回城時一次完成任務交付、寶石購買、插槽與抗性檢查；依流派決定購買項目。",

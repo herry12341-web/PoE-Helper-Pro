@@ -66,6 +66,14 @@
 
 已生成 Windows x64 PE 執行檔；封裝內 537 張圖片的 SHA-256 逐張比對一致，外部寶石 JSON 與 ZIP 完整性檢查通過。此版本未簽章，Windows 遊戲前景尚未實測。
 
-發布 ZIP 的 SHA-256：`e7c3d9947c89b247c76f2c5cad5cd80031dadc322be571c60e75d43b363617c7`。
+v1.0.0 發布 ZIP 的 SHA-256：`e7c3d9947c89b247c76f2c5cad5cd80031dadc322be571c60e75d43b363617c7`。
 
 `release/` 排除於 Git；EXE 與 ZIP 作為 Release 附件發布。
+
+## 台服中文地圖名稱（v1.0.1）
+
+`data/zone_names.zh-TW.json` 集中管理 158 個區域的台服繁中名稱，依流亡編年史的 Act 1–10 地區表核對。UI 區域選單、537 張圖片圖說與實體圖片檔名都使用此對照表；圖片內容及 zone_id 不變。原始英文標題保留於 source_zone_name/source_caption。
+
+爬蟲使用相同對照表與命名函式，重新下載時不會恢復英文顯示；新增未知區域需先補上中文名稱。`python3 scripts/localize_maps.py` 可對既有資料執行可重複的名稱遷移。
+
+已通過十章圖片載入、放大縮放、300/400/800px 版面、路徑存在性、Windows 檔名相容及重複執行遷移測試。免安裝版已重新打包，537 張封裝圖片均以 SHA-256 核對內容一致。

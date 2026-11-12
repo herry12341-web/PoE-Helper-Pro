@@ -12,6 +12,11 @@ from urllib.parse import urljoin, urlsplit, quote, unquote
 from urllib.robotparser import RobotFileParser
 import xml.etree.ElementTree as ET
 
+try:
+    from .localize_maps import zone_name, image_filename, image_caption
+except ImportError:
+    from localize_maps import zone_name, image_filename, image_caption
+
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://www.definitivguide.com'
 UA = 'PoEHelperMapArchive/1.0 (personal offline guide; polite sequential requests)'
@@ -55,7 +60,7 @@ def main():
     ap=argparse.ArgumentParser(); ap.add_argument('--delay',type=float,default=1.0); args=ap.parse_args()
     if not 1<=args.delay<=2: ap.error('--delay must be between 1 and 2 seconds')
     cache=ROOT/'.map-cache'; cache.mkdir(exist_ok=True)
-    existing_images={p.stem:p for p in (ROOT/'assets/maps').rglob('*') if p.is_file() and not p.name.endswith('.tmp')}
+    existing_images={re.search(r'([a-f0-9]{16})$',p.stem)[1]:p for p in (ROOT/'assets/maps').rglob('*') if p.is_file() and not p.name.endswith('.tmp')}
     last=0; robot=None
     def get(url, dest=None):
         nonlocal last
@@ -64,8 +69,8 @@ def main():
         if robot and not robot.can_fetch(UA,url): raise ValueError('robots.txt disallows '+url)
         p=dest or cache/hashlib.sha256(url.encode()).hexdigest()
         if p.exists() and p.stat().st_size: return p.read_bytes()
-        if dest and dest.stem in existing_images:
-            content=existing_images[dest.stem].read_bytes();dest.parent.mkdir(parents=True,exist_ok=True);dest.write_bytes(content);return content
+        if dest and re.search(r'([a-f0-9]{16})$',dest.stem)[1] in existing_images:
+            content=existing_images[re.search(r'([a-f0-9]{16})$',dest.stem)[1]].read_bytes();dest.parent.mkdir(parents=True,exist_ok=True);dest.write_bytes(content);return content
         for attempt in range(3):
             time.sleep(max(0,args.delay-(time.monotonic()-last)))
             try:
@@ -74,7 +79,7 @@ def main():
                     content=response.read(); kind=response.headers.get('Content-Type','')
                     if dest and not kind.startswith('image/'): raise ValueError('Not image: '+url)
                 p.parent.mkdir(parents=True,exist_ok=True); tmp=p.with_suffix(p.suffix+'.tmp'); tmp.write_bytes(content);tmp.replace(p)
-                if dest: existing_images[dest.stem]=dest
+                if dest: existing_images[re.search(r'([a-f0-9]{16})$',dest.stem)[1]]=dest
                 return content
             except HTTPError as ex:
                 if ex.code not in (429,500,502,503,504) or attempt==2: raise
@@ -95,14 +100,15 @@ def main():
             act=int(re.search(r'Act (\d+)',unquote(url))[1]); slug=re.sub('[^a-z0-9]+','-',unquote(url).rstrip('/').split('/')[-1].lower()).strip('-')
             parser=Article();parser.feed(get(url).decode())
             if not parser.title: raise ValueError('Missing article title')
-            zid=f'a{act}-{slug}'; images=[]
+            zid=f'a{act}-{slug}'; name=zone_name(zid); images=[]
             for j,im in enumerate(parser.images):
                 remote=urljoin(url,im['src']); ext=Path(unquote(urlsplit(remote).path)).suffix.lower()
                 if ext not in ('.png','.jpg','.jpeg','.webp','.gif','.svg'): continue
-                relative=f'assets/maps/act{act:02d}/{slug}/{hashlib.sha256(remote.encode()).hexdigest()[:16]}{ext}'
+                filename=image_filename(name,j+1,hashlib.sha256(remote.encode()).hexdigest()[:16],ext)
+                relative=f'assets/maps/act{act:02d}/{slug}/{filename}'
                 get(remote,ROOT/relative)
-                images.append({'id':f'{zid}-{j+1}','src':relative,'caption':im['caption'],'source_url':remote,'credit':'CyclonDefinitiv / Definitiv Guide'})
-            zones.append({'zone_id':zid,'act':act,'zone_name':parser.title,'map_images':images,'speedrun_tips':parser.blocks,'gem_purchases':[],'source_url':url})
+                images.append({'id':f'{zid}-{j+1}','src':relative,'caption':image_caption(name,j+1),'source_caption':im['caption'],'source_url':remote,'credit':'CyclonDefinitiv / Definitiv Guide'})
+            zones.append({'zone_id':zid,'act':act,'zone_name':name,'source_zone_name':parser.title,'map_images':images,'speedrun_tips':parser.blocks,'gem_purchases':[],'source_url':url})
             print(f'[{index+1}/{len(urls)}] A{act} {parser.title}: {len(images)} images',flush=True)
         except Exception as ex:
             failures.append({'url':url,'error':str(ex)}); print('FAILED',url,str(ex),flush=True)
