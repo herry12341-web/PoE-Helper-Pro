@@ -6,7 +6,7 @@
 2. `python3 scripts/fetch_maps.py --delay 1` 更新地圖與 `data/acts_data.json`。Python 只用標準函式庫。
 3. `npm run electron:dev` 啟動桌面工具；設定中選擇 **PoE1 開荒**。
 4. 使用原本的上一章／下一章控制，於「地圖與跑圖指南」手動選取區域。懸停縮圖預覽，點擊放大；滾輪縮放、拖曳平移、Ctrl+滾輪切圖、Esc 關閉。
-5. 「自訂 my_gems.json → 開啟配置資料夾」可找到 `app.getPath('userData')/my_gems.json`。編輯後點「重新載入寶石清單」。初次載入才複製 `data/my_gems.json`，不覆寫既有檔案。
+5. Windows 免安裝版的購買清單位於執行檔旁的 `data/my_gems.json`；開發版則位於 `app.getPath('userData')/my_gems.json`。從「自訂 my_gems.json → 開啟配置資料夾」開啟，編輯後點「重新載入寶石清單」。不覆寫既有檔案。
 6. 瀏覽器預覽以匯入 JSON 及 localStorage 取代桌面檔案存取。
 
 ## 資料
@@ -26,7 +26,8 @@
 ## 建置與測試
 
 - `npm run build`：Vite 產生 `build/` 並複製離線圖片，不會抓取網站。
-- `npm run electron:build`：沿用原本 Electron Builder。額外打包 `data/my_gems.json` 範例。
+- `npm run electron:windows`：使用 Electron Builder 產生 Windows x64 免安裝資料夾，包含外部 `data/my_gems.json`。
+- 根目錄的 `portable-mode.txt` 會停用免安裝版自動更新。
 - `npm run test:campaign`：十章資料、圖片存在性、步驟引用、寶石驗證與空清單測試。
 - `python3 -m unittest discover -s tests -p 'test_*.py'`：來源文章解析，排除導覽列與頁尾。
 - `python3 tests/ui_smoke.py`：Vite 已啟動時測試十章、圖片、放大縮放、寶石狀態與 300/400/800px 版面。需 Python Playwright 與 Chromium；可設定 `CHROMIUM_PATH`。
@@ -58,3 +59,13 @@
 新增：`scripts/fetch_maps.py`、`src/components/CampaignPanel.jsx`、`src/lib/campaign.js`、`data/acts_data.json`、`data/my_gems.json`、`data/extra_zones.json`、`data/route_steps.json`、`data/route_sources.json`、`data/fetch-report.json`、`tests/campaign.test.js`、`tests/test_fetch_maps.py`、`tests/ui_smoke.py`、本文件，以及 `assets/maps/act01/` 至 `act10/` 內的 537 個圖片檔。所有圖片完整檔名列於 `acts_data.json` 各區域的 `map_images[].src`。
 
 `build/` 是生成的正式版輸出；`node_modules/`、`.map-cache/` 是本機依賴與下載快取，不是原始碼修改。
+
+## Windows 免安裝版
+
+從 GitHub Releases 下載 `PoE-Helper-Windows.zip`，完整解壓縮後雙擊 `PoE-Helper-Pro.exe`。不需要 Node.js 或 CMD；不要單獨搬走 EXE。
+
+已生成 Windows x64 PE 執行檔；封裝內 537 張圖片的 SHA-256 逐張比對一致，外部寶石 JSON 與 ZIP 完整性檢查通過。此版本未簽章，Windows 遊戲前景尚未實測。
+
+發布 ZIP 的 SHA-256：`e7c3d9947c89b247c76f2c5cad5cd80031dadc322be571c60e75d43b363617c7`。
+
+`release/` 排除於 Git；EXE 與 ZIP 作為 Release 附件發布。
